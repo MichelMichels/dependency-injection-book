@@ -18,13 +18,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup", "Setup\Setup.csproj", "{F3262868-8EA1-4366-90D8-B69FEF3EDEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Setup", "Setup\Setup.csproj", "{F3262868-8EA1-4366-90D8-B69FEF3EDEE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LooselyCoupled", "LooselyCoupled", "{2EF53BB3-A1ED-4F21-BCA0-39B89605DA76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LooselyCoupled.UI", "LooselyCoupled.UI\LooselyCoupled.UI.csproj", "{0454C90E-27E4-48B7-9D64-3543724037BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LooselyCoupled.UI", "LooselyCoupled.UI\LooselyCoupled.UI.csproj", "{0454C90E-27E4-48B7-9D64-3543724037BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LooselyCoupled.Domain", "LooselyCoupled.Domain\LooselyCoupled.Domain.csproj", "{7EB206D9-7765-45FF-A821-43A62D3FB04F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LooselyCoupled.Domain", "LooselyCoupled.Domain\LooselyCoupled.Domain.csproj", "{7EB206D9-7765-45FF-A821-43A62D3FB04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LooselyCoupled.DataAccess", "LooselyCoupled.DataAccess\LooselyCoupled.DataAccess.csproj", "{F213A923-B2AB-451F-9666-D154411984A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{7EB206D9-7765-45FF-A821-43A62D3FB04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB206D9-7765-45FF-A821-43A62D3FB04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB206D9-7765-45FF-A821-43A62D3FB04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F213A923-B2AB-451F-9666-D154411984A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F213A923-B2AB-451F-9666-D154411984A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F213A923-B2AB-451F-9666-D154411984A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F213A923-B2AB-451F-9666-D154411984A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{113CB07F-82B3-4C31-AED3-54D3062926EB} = {E0F016AC-3548-4E55-9764-D8CF506281E6}
 		{0454C90E-27E4-48B7-9D64-3543724037BF} = {2EF53BB3-A1ED-4F21-BCA0-39B89605DA76}
 		{7EB206D9-7765-45FF-A821-43A62D3FB04F} = {2EF53BB3-A1ED-4F21-BCA0-39B89605DA76}
+		{F213A923-B2AB-451F-9666-D154411984A4} = {2EF53BB3-A1ED-4F21-BCA0-39B89605DA76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B1D4C46-970E-4D76-BEAA-0C72110D4D5B}

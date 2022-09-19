@@ -1,9 +1,13 @@
-﻿using LooselyCoupled.Domain;
+﻿using LooselyCoupled.DataAccess;
+using LooselyCoupled.Domain;
+using LooselyCoupled.UI.Adapters;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IProductRepository>(new JsonProductRepository(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),"LooselyCoupled")));
+builder.Services.AddScoped<IUserContext, AspNetUserContextAdapter>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
